@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    img{
+      float: left;
+      margin: 0 auto;
+      padding-right: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Site Header -->
+  <header>
+    <!-- h1: The most important headline -->
+    <h1>John Kim</h1>
+  </header>
+
+  <div class="container">
+
+    <!-- Section 1: Bio -->
+    <section id="About-me">
+      <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
+      <h2>About Me</h2>
+
+      <div class="panel-body">
+        <img src="https://zoellafashions.com/small/200/thumbnail/ANd9GcRDFuaBfrd-QryOJqA4waXtQm_sZ2sH2A--H6mT3ugTe1qkZFKE.jpg" alt="My-image">
+        <p>
+          English was not my first language. Food was my first language.
+          I love to cook. I love playing sports. I love being outside.
+        </p>
+        <p>
+          I am trying to stay positive while drinking from a fire hose. Adding to that chugging is not my forte. I have spend more than ten hours on this assignment. My dog has forgotten who I am.
+        </p>
+        <p>
+          Idiosyncrasies:
+          I think in Korean before I speak English. Now I am learning to code - what could possibly go wrong?
+        </p>
+      </div>
+
+    </section>
+
+    <section>
+
+      <h3>Connect with Me</h3>
+
+      <style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 60px;
+    padding-left: 15px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="github_icon.png">
+    <img src="(file://C:/Users/johny/Desktop/github_icon.png">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="www.linkedin.com/in/john-kim405">
+    <img src="www.linkedin.com/in/john-kim405">
+  </a>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="overflow_icon.png">
+    <img src="overflow_icon.png">
+  </a>
+</div>
+
+  </div>
+
+</body>
+
+</html>
